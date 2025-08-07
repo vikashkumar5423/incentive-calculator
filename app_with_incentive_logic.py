@@ -42,8 +42,8 @@ nb_target = col3.number_input("NB Target (₹)", min_value=0, step=1000)
 nb_achieved = col4.number_input("NB Achieved (₹)", min_value=0, step=1000)
 
 col5, col6 = st.columns(2)
-collectible = col5.number_input("Collectible (₹)", min_value=0)
-collected = col6.number_input("Collected (₹)", min_value=0)
+Persistency collectible = col5.number_input("Collectible (₹)", min_value=0)
+Persistency collected = col6.number_input("Collected (₹)", min_value=0)
 
 col7, col8 = st.columns(2)
 mml_contribution = col7.number_input("MMLI (₹)", min_value=0)
